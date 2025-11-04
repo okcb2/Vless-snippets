@@ -27,8 +27,8 @@ export default {
           return await handle_ws(req);
       } else if (req.method === 'GET') {
           if (u.pathname === '/') {
-              const html = "<h1>success ${UUID}</h1>";
-              return new Response(html, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+              const html = "<h1>success</h1>";
+              return new Response(html+${UUID}, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
           } else if (u.pathname.toLowerCase().includes(`/${UUID}`)) {
               return await handle_sub(req);
           }
