@@ -7,17 +7,16 @@ const UUID = '63a1f5c1-549f-44a8-b6a3-a5b7d8ced85c';
 const DEFAULT_PROXY_IP = 'proxyip.cmliussss.net:443'; // 来源：https://ipdb.030101.xyz/bestdomain/
 // 优选域名/IP
 const BEST_DOMAINS = [
-    'www.shopify.com:443#www.shopify.com', 
-    'store.ubi.com:443#store.ubi.com', 
-    'saas.sin.fan:443#saas.sin.fan', 
-    'mfa.gov.ua:443#mfa.gov.ua', 
-    'www.wto.org:443#www.wto.org', 
-    'cf.tencentapp.cn:443#cf.tencentapp.cn', 
-    'cf.877774.xyz:443#cf.877774.xyz', 
-    'cdns.doon.eu.org:443#cdns.doon.eu.org', 
-    'freeyx.cloudflare88.eu.org:443#freeyx.cloudflare88.eu.org',
-    'cloudflare.182682.xyz:443#cloudflare.182682.xyz', 
-    'cf.zhetengsha.eu.org:443#cf.zhetengsha.eu.org',
+'108.162.198.29:443#CF亚太1J',
+'172.64.229.16:443#CF亚太2J',
+'172.64.146.178:443#CF亚太3S',
+'104.18.47.108:443#CF亚太4S',
+'saas.sin.fan:443#saas.sin.fan J',
+'www.shopify.com:443#shopify S',
+'store.ubi.com:443#store.ubi.com S',
+'cf.tencentapp.cn:443#cf.tencentapp.cn S',
+'202.85.53.77:7000#香港 YD',
+'115.91.165.115:50000#韩国'
 ]
 
 export default {
