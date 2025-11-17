@@ -55,7 +55,7 @@ async function handle_sub(req) {
 function gen_links(workerDomain) {
   let links = [];
   let i = 0;
-  const wsPath = encodeURIComponent('/?ed=2048');
+  const wsPath = encodeURIComponent('/?ed=2560');
   const proto = atob("dmxlc3M=");
   
   BEST_DOMAINS.forEach(item => {
@@ -65,9 +65,10 @@ function gen_links(workerDomain) {
           security: 'tls',
           sni: workerDomain,
           fp: 'chrome',
+          allowInsecure: '1',
           type: 'ws',
           host: workerDomain,
-          path: '/?ed=2048'  //wsPath
+          path: '/?ed=2560'  //wsPath
       });
       links.push(`${proto}://${UUID}@${parts[0]}?${wsParams.toString()}#${encodeURIComponent(parts[1])}`);
   })
