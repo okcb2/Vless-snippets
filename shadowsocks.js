@@ -8,8 +8,16 @@ let SSpath = '';          // 路径验证，为空则使用UUID作为验证路�
 
 // CF-CDN 
 let cfip = [ // 格式:优选域名:端口#备注名称、优选IP:端口#备注名称、[ipv6优选]:端口#备注名称、优选域名#备注 
-    'mfa.gov.ua#SG', 'saas.sin.fan#JP', 'store.ubi.com#SG','cf.130519.xyz#KR','cf.008500.xyz#HK', 
-    'cf.090227.xyz#SG', 'cf.877774.xyz#HK','cdns.doon.eu.org#JP','sub.danfeng.eu.org#TW','cf.zhetengsha.eu.org#HK'
+'108.162.198.29:443#CF亚太1J',
+'172.64.229.16:443#CF亚太2J',
+'172.64.146.178:443#CF亚太3S',
+'104.18.47.108:443#CF亚太4S',
+'saas.sin.fan:443#saas.sin.fan J',
+'www.shopify.com:443#shopify S',
+'store.ubi.com:443#store.ubi.com S',
+'cf.tencentapp.cn:443#cf.tencentapp.cn S',
+'202.85.53.77:7000#香港 YD',
+'115.91.165.115:50000#韩国'
 ];  // 感谢各位大佬维护的优选域名
 
 function closeSocketQuietly(socket) {
